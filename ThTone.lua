@@ -3,7 +3,6 @@ local prev_thr = 0
 local idThr
 
 local function init()
-    loop_count = 0
     idThr= getFieldInfo('thr').id
 end
 
